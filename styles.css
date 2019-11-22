@@ -1,0 +1,237 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color:darkslateblue;
+	height: 100%;
+
+}
+summary{
+	font-weight: 20px;
+	font-size:1.5em;
+	outline: none;
+	cursor: pointer;
+	color: white;
+	top:2em;
+}
+
+summary:hover{
+color: #5a4fff;
+
+}
+.toggle p {
+	opacity: 0;
+	transition: all 0.5s;
+	height: 0;
+	transition-delay: 0.5s;
+	transform: translateX(-2em);
+	font-weight: 600px;
+	font-size: 3em;
+	color: white;
+}
+.show p {
+	opacity: 1;
+	height:100%;
+	transform: translateX(0);
+
+}
+
+h1{ 
+padding: 50px;
+font-family: serif;
+margin: 50px;
+width: 60%;
+font-size: 2em;
+background-color: honeydew;
+position: relative;
+left: 30px;
+color: pink;
+
+
+ }
+h2 {
+
+right: 3em;
+	color: white;
+
+}
+.box { width: 30%;
+	height: 50%;
+	padding:5px; 
+	margin: 40px auto;
+	background-color: none;
+
+}
+
+.ribbon {
+ font-size: 30px !important;
+ width: 70%;
+ position: relative;
+ background: #ba89b6;
+ color: white;
+ text-align: center;
+ padding: 1em 2em; 
+ margin: 2em auto 3em; 
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #986794;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+
+.circle-1 {
+
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+    top: 13em;
+
+}
+.circle-2 {
+
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+    top: 18em;}
+.circle-3 {
+
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+    top: 23em;}
+
+.circle-4 {
+
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+    top: 28em;}
+.circle-5 {
+
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+   top:33em;}
+
+.circle-6{
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+   
+	    top: 38em;
+}
+.circle-7 {
+
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+    top: 43em;
+
+}
+.circle-8 {
+
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+    top: 48em;}
+.circle-9 {
+
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+    top: 53em;}
+
+.circle-10 {
+
+	width: 1em;
+    height: 1em;
+    background-color: coral;
+    border-radius: 100%;
+    animation: c 5s linear infinite;
+    position: relative;
+    top: 58em;}
+
+
+
+
+@keyframes g
+{
+	0%{transform: translate(0px);}
+	50%{transform: translate(300px);}
+    100%{transform: translate(0px);}
+
+}
+
+@keyframes c  
+{
+    0%{transform: translate(0px);}
+    50%{transform: translate(400px);}
+    100%{transform: translate(0px);}
+} 
+@keyframes cc  
+{
+    0%{transform: translate(15px);}
+    50%{transform: translate(200px);}
+    100%{transform: translate(15px);}
+} 
+
